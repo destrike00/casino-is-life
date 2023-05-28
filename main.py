@@ -13,8 +13,8 @@ class Game:
         self.machine=Machine()
         self.delta_time=0
 
-        main_sound=pygame.mixer.Sound("audio/track.mp3")
-        main_sound.play(loops=-1)
+        #main_sound=pygame.mixer.Sound("audio/track.mp3")
+        #main_sound.play(loops=-1)
 
     def run(self):
 
@@ -34,6 +34,7 @@ class Game:
 
 
 if __name__=='__main__':
+
     game=Game()
     game.run()
 
